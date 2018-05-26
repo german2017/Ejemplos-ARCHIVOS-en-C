@@ -24,19 +24,19 @@ int main()
 void funcion1()
 {
     FILE* miArchivo;
-    int numero;// = 64;
-/*
+    int numero = 64;
+
     miArchivo = fopen("prueba1.txt","w");
 
     fwrite(&numero,sizeof(int),1,miArchivo);
 
-    fclose(miArchivo);*/
+    fclose(miArchivo);
 
-    miArchivo = fopen("prueba1.txt","r");
+    /*miArchivo = fopen("prueba1.txt","r");
 
     fread(&numero,sizeof(int),1,miArchivo);
     fclose(miArchivo);
-    printf("NUMERO: %d", numero);
+    printf("NUMERO: %d", numero);*/
 
 }
 void funcion2a()

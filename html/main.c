@@ -4,7 +4,7 @@
 int main()
 {
     FILE* archivo;
-    char variable[50]="hola mecon";
+    char variable[50]="los pelos verdes de agustin!";
     char buffer[1080]= {}; //="<html><body><MARQUEE><h1>Hola a todos</h1></MARQUEE></body></html>";
 
     strcat(buffer,"<html><head><style>table, th, td {border: 1px solid"
